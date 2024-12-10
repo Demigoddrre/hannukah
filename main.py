@@ -29,7 +29,7 @@ hklist = {
 
 print("\nHanukkah Gifts:")
 for day, gifts in hklist.items():
-    print(f"Day {day}:")
+    print(f"{day}:")
     for gift in gifts:
         print(f"  - {gift}")
 
